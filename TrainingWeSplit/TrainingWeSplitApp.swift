@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct WeSplitApp: App {
+struct TrainingWeSplitApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplitView()
         }
     }
 }
